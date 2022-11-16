@@ -1,2 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Do not merge `pom.xml` from older version, as it will typically conflict
+
+pom.xml merge=ours
